@@ -15,7 +15,7 @@ public enum Locators {
         this.by = by;
     }
 
-    public SelenideElement getElement(){
+    public SelenideElement getElement() {
         return $(by);
     }
 }
