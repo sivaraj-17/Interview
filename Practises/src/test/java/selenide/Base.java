@@ -16,7 +16,7 @@ public class Base {
 
     @Test
     public void selenide() {
-        Configuration.browser = "firefox";
+        Configuration.browser = "chrome";
         open("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         getWebDriver().manage().window().maximize();
         $(By.name("username")).setValue("Admin");
